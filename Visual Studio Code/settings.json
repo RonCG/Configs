@@ -1,0 +1,49 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "editor.minimap.enabled": false,
+    "extensions.ignoreRecommendations": false,
+    "editor.lineNumbers": "relative",
+    "vim.useCtrlKeys": false,
+    "vim.leader": "<Space>",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+          "before": ["J"],
+          "after": ["5", "j"]
+        },
+        {
+          "before": ["K"],
+          "after": ["5", "k"]
+        },
+        {
+            "before": ["<Leader>", "j"],
+            "after": ["J"]
+        },
+        {
+            "before": ["<Leader>", "v"],
+            "after": ["C-v"]
+        },
+        {
+            "before": ["<Leader>", "d"],
+            "after": ["y", "i", "w"]
+        },
+        {
+            "before": ["<Leader>", "D"],
+            "after": ["y", "i", "W"]
+        }
+     ],
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-r>": true
+    },
+    "cSpell.userWords": [
+        "employeetimeoff"
+    ]
+    
+}
