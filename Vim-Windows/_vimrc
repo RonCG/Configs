@@ -1,10 +1,23 @@
-:imap jk <ESC>
-:set number relativenumber
-:set ignorecase
-:set hlsearch
-" <Ctrl-l> redraws the screen and removes any search highlighting.
-nnoremap <silent> <C-l> :nohl<CR><C-l>
+" Show block cursor on normal mode
 let &t_ti.="\e[1 q"
 let &t_SI.="\e[5 q"
 let &t_EI.="\e[1 q"
 let &t_te.="\e[0 q"
+
+" Remap space as <leader>
+nnoremap <SPACE> <Nop>
+let mapleader=" "
+
+" Custom configs
+:imap jk <ESC>
+:nmap J 5j
+:nmap K 5k
+:map <leader>d yiw
+:map <leader>D yiW
+:set number relativenumber
+:set ignorecase
+:set hlsearch
+
+" <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
+
