@@ -1,3 +1,4 @@
+:imap jk <ESC>
 :set number relativenumber
 :set ignorecase
 :set hlsearch
