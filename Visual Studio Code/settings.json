@@ -38,6 +38,14 @@
             "after": ["J"]
         },
         {
+            "before": ["<Leader>", "p"],
+            "after": ["\"", "0", "p"]
+        },
+        {
+            "before": ["<Leader>", "P"],
+            "after": ["\"", "0", "P"]
+        },
+        {
             "before": ["<Leader>", "v"],
             "after": ["C-v"]
         },
