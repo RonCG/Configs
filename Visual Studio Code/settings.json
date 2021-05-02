@@ -1,6 +1,6 @@
 {
     "workbench.iconTheme": "material-icon-theme",
-    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "js/ts.implicitProjectConfig.experimentalDecorators": true,
     "editor.minimap.enabled": false,
     "extensions.ignoreRecommendations": false,
     "editor.lineNumbers": "relative",
@@ -14,11 +14,11 @@
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
-          "before": ["-"],
+          "before": ["H"],
           "after": ["^"]
         },
         {
-          "before": ["="],
+          "before": ["L"],
           "after": ["$"]
         },
         {
@@ -28,6 +28,10 @@
         {
           "before": ["K"],
           "after": ["5", "k"]
+        }, 
+        {
+            "before": ["c", "m"],
+            "after": ["g", "c"]
         },
         {
             "before": ["<Leader>", "j"],
