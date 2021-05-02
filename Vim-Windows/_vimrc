@@ -10,6 +10,8 @@ let mapleader=" "
 
 " Custom configs
 :imap jk <ESC>
+:nmap - ^
+:nmap = $
 :nmap J 5j
 :nmap K 5k
 :map <leader>d yiw

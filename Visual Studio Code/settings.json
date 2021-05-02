@@ -14,6 +14,14 @@
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {
+          "before": ["-"],
+          "after": ["^"]
+        },
+        {
+          "before": ["="],
+          "after": ["$"]
+        },
+        {
           "before": ["J"],
           "after": ["5", "j"]
         },
