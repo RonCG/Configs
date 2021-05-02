@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Opens windows terminal from wox or file explorer by pressing Windows+.
-#IfWinActive ahk_class HwndWrapper[Wox.exe;;333cd6a7-7cf8-4883-82d7-bd6b52ddfe78]
+#IfWinActive ahk_exe Wox.exe
 ^.::
 Send ^{Enter}
 Sleep 700
