@@ -50,6 +50,10 @@
             "after": ["\"", "0", "P"]
         },
         {
+            "before": ["<Leader>", "r"],
+            "after": ["d", "i", "w", "\"", "0", "P"]
+        },
+        {
             "before": ["<Leader>", "v"],
             "after": ["C-v"]
         },
