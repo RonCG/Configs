@@ -19,3 +19,13 @@ Send {Del}
 Send {Raw}wt
 Send {Enter}
 return
+#IfWinActive ahk_class CabinetWClass
+^+.::
+Send !d
+Send {Del}
+Send {Raw}wt
+Send {Enter}
+Sleep 1000
+Send {Raw}code .
+Send {Enter}
+return
