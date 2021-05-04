@@ -20,14 +20,15 @@ let mapleader=" "
 " Custom configs
 :imap jk <ESC>
 :imap JK <ESC>
-:nmap H ^
-:nmap L $
-:nmap J 5j
-:nmap K 5k
-:nmap <leader>p "0p
-:nmap <leader>P "0P
-:map <leader>d yiw
-:map <leader>D yiW
+:nnoremap H ^
+:nnoremap L $
+:nnoremap J 5j
+:nnoremap K 5k
+:nnoremap <leader>p "0p
+:nnoremap <leader>P "0P
+:nnoremap <leader>r diw"0P
+:nnoremap <leader>d yiw
+:nnoremap <leader>D yiW
 :set number relativenumber
 :set ignorecase
 :set hlsearch
