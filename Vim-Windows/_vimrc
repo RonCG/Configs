@@ -19,6 +19,7 @@ let mapleader=" "
 
 " Custom configs
 :imap jk <ESC>
+:imap JK <ESC>
 :nmap H ^
 :nmap L $
 :nmap J 5j
