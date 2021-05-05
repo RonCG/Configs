@@ -20,10 +20,11 @@ let mapleader=" "
 " Custom configs
 :imap jk <ESC>
 :imap JK <ESC>
-:nnoremap H ^
-:nnoremap L $
-:nnoremap J 5j
-:nnoremap K 5k
+:nnoremap H 5b
+:nnoremap L 5w
+:nnoremap J Lzz
+:nnoremap K Hzz
+:nnoremap <leader>j J
 :nnoremap <leader>p "0p
 :nnoremap <leader>P "0P
 :nnoremap <leader>r diw"0P
