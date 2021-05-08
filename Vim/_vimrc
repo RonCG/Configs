@@ -13,6 +13,11 @@ let &t_SI.="\e[5 q"
 let &t_EI.="\e[1 q"
 let &t_te.="\e[0 q"
 
+" General configs
+:set number relativenumber
+:set ignorecase
+:set hlsearch
+
 " Remap space as <leader>
 nnoremap <SPACE> <Nop>
 let mapleader=" "
@@ -20,19 +25,16 @@ let mapleader=" "
 " Custom configs
 :imap jk <ESC>
 :imap JK <ESC>
-:nnoremap H 5b
-:nnoremap L 5w
+:nnoremap H ^
+:nnoremap L $
 :nnoremap J Lzz
 :nnoremap K Hzz
 :nnoremap <leader>j J
+:nnoremap <leader>y yiw
+:nnoremap <leader>Y yiW
 :nnoremap <leader>p "0p
 :nnoremap <leader>P "0P
 :nnoremap <leader>r diw"0P
-:nnoremap <leader>d yiw
-:nnoremap <leader>D yiW
-:set number relativenumber
-:set ignorecase
-:set hlsearch
 
 " <Ctrl-l> redraws the screen and removes any search highlighting.
 nnoremap <silent> <C-l> :nohl<CR><C-l>
