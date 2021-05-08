@@ -55,15 +55,17 @@
         "defaults": 
         {
             "colorScheme": "One Half Dark",
+            "cursorShape": "filledBox",
+            "useAcrylic": true,
+            "acrylicOpacity": 0.80,
             "fontFace": "Hack NF",
             "fontSize": 11,
-            "cursorShape": "filledBox",
             "startingDirectory": "."
         },
         "list": 
         [
             {
-                "commandline": "powershell.exe -nologo",                
+                "commandline": "powershell.exe -nologo",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "PowerShell"
@@ -177,7 +179,7 @@
             "yellow": "#FFCB6B"
         },
         {
-            "background": "#282C34",
+            "background": "#1E1E1E",
             "black": "#282C34",
             "blue": "#61AFEF",
             "brightBlack": "#5A6374",
