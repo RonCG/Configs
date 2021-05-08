@@ -19,11 +19,11 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         {
           "before": ["H"],
-          "after": ["5", "b"]
+          "after": ["^"]
         },
         {
           "before": ["L"],
-          "after": ["5", "w"]
+          "after": ["$"]
         },
         {
           "before": ["J"],
@@ -36,14 +36,6 @@
         {
             "before": ["c", "m"],
             "after": ["g", "c"]
-        },
-        {
-            "before": ["<Leader>", "h"],
-            "after": ["^"]
-        },
-        {
-            "before": ["<Leader>", "l"],
-            "after": ["$"]
         },
         {
             "before": ["<Leader>", "j"],
