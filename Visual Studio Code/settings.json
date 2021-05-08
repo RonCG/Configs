@@ -70,8 +70,9 @@
         "<C-d>": false,
         "<C-r>": true
     },
-    "cSpell.userWords": [
-        "employeetimeoff"
-    ]
-    
+    "terminal.integrated.shell.windows":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": ["-NoLogo"],
+    "terminal.integrated.fontFamily": "MesloLGSDZ NF",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.copyOnSelection": true
 }
