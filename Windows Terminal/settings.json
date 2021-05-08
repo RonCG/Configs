@@ -55,7 +55,7 @@
         "defaults": 
         {
             "colorScheme": "One Half Dark",
-            "fontFace": "MesloLGSDZ NF",
+            "fontFace": "Hack NF",
             "fontSize": 11,
             "cursorShape": "filledBox",
             "startingDirectory": "."
