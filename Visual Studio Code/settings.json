@@ -38,8 +38,24 @@
             "after": ["g", "c"]
         },
         {
+            "before": ["<Leader>", "h"],
+            "after": ["^"]
+        },
+        {
+            "before": ["<Leader>", "l"],
+            "after": ["$"]
+        },
+        {
             "before": ["<Leader>", "j"],
             "after": ["J"]
+        },
+        {
+            "before": ["<Leader>", "y"],
+            "after": ["y", "i", "w"]
+        },
+        {
+            "before": ["<Leader>", "Y"],
+            "after": ["y", "i", "W"]
         },
         {
             "before": ["<Leader>", "p"],
@@ -56,14 +72,6 @@
         {
             "before": ["<Leader>", "v"],
             "after": ["C-v"]
-        },
-        {
-            "before": ["<Leader>", "d"],
-            "after": ["y", "i", "w"]
-        },
-        {
-            "before": ["<Leader>", "D"],
-            "after": ["y", "i", "W"]
         }
      ],
     "vim.handleKeys": {
