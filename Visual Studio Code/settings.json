@@ -6,6 +6,9 @@
     "extensions.ignoreRecommendations": false,
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
     "vim.useCtrlKeys": false,
+    "vim.useSystemClipboard": true,
+    "vim.sneak": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
     "vim.leader": "<Space>",
     "vim.insertModeKeyBindings": [
         {
