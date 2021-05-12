@@ -62,7 +62,7 @@
           "type": "git",
           "style": "plain",
           "properties": {
-            "prefix": "<darkGray>on</> <white>git:</>"
+            "prefix": "<darkGray></> <white>git:</>"
           }
         },
         {
@@ -72,21 +72,6 @@
           "properties": {
             "prefix": " C:",
             "always_numeric": true
-          }
-        }
-      ]
-    },
-    {
-      "type": "prompt",
-      "alignment": "right",
-      "segments": [
-        {
-          "type": "time",
-          "style": "plain",
-          "foreground": "darkGray",
-          "properties": {
-            "prefix": " ",
-            "postfix": ""
           }
         }
       ]
