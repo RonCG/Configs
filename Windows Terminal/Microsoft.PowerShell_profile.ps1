@@ -1,1 +1,1 @@
-Set-PoshPrompt -Theme ys
+Set-PoshPrompt -Theme ~/.mytheme.omp.json
