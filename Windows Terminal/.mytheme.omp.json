@@ -62,7 +62,7 @@
           "type": "git",
           "style": "plain",
           "properties": {
-            "prefix": "<darkGray></> <white>git:</>"
+            "prefix": "<darkGray></> <white>git:</>" 
           }
         },
         {
