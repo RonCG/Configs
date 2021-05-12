@@ -43,7 +43,7 @@
           "type": "session",
           "style": "plain",
           "properties": {
-            "user_info_separator": " <darkGray>@</> ",
+            "user_info_separator": " <green>@</>",
             "prefix": "",
             "user_color": "cyan",
             "host_color": "green"
@@ -54,7 +54,7 @@
           "style": "plain",
           "foreground": "lightYellow",
           "properties": {
-            "prefix": "<darkGray>  </>",
+            "prefix": "<darkGray>ﱮ </>",
             "style": "full"
           }
         },
@@ -62,7 +62,7 @@
           "type": "git",
           "style": "plain",
           "properties": {
-            "prefix": "<darkGray></> <white>git:</>" 
+            "prefix": "<darkGray></> <white>git:</>"
           }
         },
         {
