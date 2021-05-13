@@ -43,7 +43,8 @@
           "type": "session",
           "style": "plain",
           "properties": {
-            "user_info_separator": " <green>@</>",
+            "user_info_separator": " <darkGray> </>",
+            // "user_info_separator": " <darkGray>     </><green></>",
             "prefix": "",
             "user_color": "cyan",
             "host_color": "green"
