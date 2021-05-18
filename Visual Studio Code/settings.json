@@ -6,7 +6,7 @@
     "extensions.ignoreRecommendations": false,
     "js/ts.implicitProjectConfig.experimentalDecorators": true,
     "vim.useCtrlKeys": false,
-    "vim.useSystemClipboard": true,
+    "vim.useSystemClipboard": false,
     "vim.sneak": true,
     "vim.sneakUseIgnorecaseAndSmartcase": true,
     "vim.leader": "<Space>",
@@ -28,6 +28,22 @@
         {
           "before": ["L"],
           "after": ["$"]
+        },
+        {
+          "before": ["q"],
+          "after": ["b"]
+        },
+        {
+          "before": ["b"],
+          "after": ["q"]
+        },
+        {
+          "before": ["Q"],
+          "after": ["B"]
+        },
+        {
+          "before": ["B"],
+          "after": ["Q"]
         },
         {
           "before": ["J"],
@@ -79,7 +95,6 @@
     "terminal.integrated.fontFamily": "Hack NF",
     "terminal.integrated.fontSize": 12,
     "terminal.integrated.copyOnSelection": true,
-    "workbench.colorTheme": "Default Dark+",
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
             // "terminal.background": "#282C34",
@@ -94,5 +109,8 @@
             "terminal.ansiCyan":"#56B6C2",
             "terminal.ansiBrightCyan":"#56B6C2"
         }
-    }
+    },
+    "files.associations": {
+        "*.json": "jsonc"
+    },
 }

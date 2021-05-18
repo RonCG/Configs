@@ -27,6 +27,10 @@ let mapleader=" "
 :imap JK <ESC>
 :nnoremap H ^
 :nnoremap L $
+:nnoremap q b
+:nnoremap Q B
+:nnoremap b q
+:nnoremap B Q
 :nnoremap J Lzz
 :nnoremap K Hzz
 :nnoremap <leader>j J
