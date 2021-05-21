@@ -9,6 +9,7 @@
     "vim.useSystemClipboard": false,
     "vim.sneak": true,
     "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.camelCaseMotion.enable": true,
     "vim.leader": "<Space>",
     "vim.insertModeKeyBindings": [
         {
@@ -56,6 +57,18 @@
         {
             "before": ["c", "m"],
             "after": ["g", "c"]
+        },
+        {
+            "before": ["<Leader>", "o"],
+            "after": ["o", "<Esc>"]
+        },
+        {
+            "before": ["<Leader>", "O"],
+            "after": ["O", "<Esc>"]
+        },
+        {
+            "before": ["<Leader>", "q"],
+            "after": ["<Leader>", "b"]
         },
         {
             "before": ["<Leader>", "j"],
