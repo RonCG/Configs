@@ -9,6 +9,7 @@
     "vim.useSystemClipboard": false,
     "vim.sneak": true,
     "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "vim.smartcase": false,
     "vim.camelCaseMotion.enable": true,
     "vim.leader": "<Space>",
     "vim.insertModeKeyBindings": [
@@ -20,6 +21,32 @@
             "before": ["J", "K"],
             "after": ["<Esc>"]
         }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+          "before": ["H"],
+          "after": ["^"]
+        },
+        {
+          "before": ["L"],
+          "after": ["$"]
+        },
+        {
+          "before": ["q"],
+          "after": ["b"]
+        },
+        {
+          "before": ["b"],
+          "after": ["q"]
+        },
+        {
+          "before": ["Q"],
+          "after": ["B"]
+        },
+        {
+          "before": ["B"],
+          "after": ["Q"]
+        },
     ],
     "vim.normalModeKeyBindingsNonRecursive": [
         {

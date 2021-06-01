@@ -25,6 +25,12 @@ let mapleader=" "
 " Custom configs
 :imap jk <ESC>
 :imap JK <ESC>
+:vnoremap H ^
+:vnoremap L $
+:vnoremap q b
+:vnoremap Q B
+:vnoremap b q
+:vnoremap B Q
 :nnoremap H ^
 :nnoremap L $
 :nnoremap q b
